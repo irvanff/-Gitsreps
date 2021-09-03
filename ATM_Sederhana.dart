@@ -141,24 +141,6 @@ void Transfer() {
   mainmenu();
 }
 
-// void InputRekening() {
-//   print('--------------------------');
-//   var nom = int.parse(stdin.readLineSync())
-//   stdout.write('Masukan Nomor Rekening : ');
-//   var rekening = int.parse(stdin.readLineSync());
-//   if (custom.getNorek() == rekening) {
-//     print(custom.getNama());
-//     print(custom.getNorek());
-//     var Saldo = custom.getSaldo( ) + nom;
-//     custom.setSaldo(Saldo);
-//     print('tranfer berhasil')
-
-//   } else {
-//     print('rekening tidak ada ');
-//   }
-//   mainmenu();
-// }
-
 void main() {
   login();
 }
